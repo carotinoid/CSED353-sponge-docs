@@ -163,6 +163,7 @@ var searchData=
   ['conjf',['conjf',['https://man7.org/linux/man-pages/man3/conjf.3.html .html',0,'man3']]],
   ['conjl',['conjl',['https://man7.org/linux/man-pages/man3/conjl.3.html .html',0,'man3']]],
   ['connect',['connect',['../class_socket.html#a37018cb0609cd98256bd2d2739e7d3c5',1,'Socket::connect()'],['https://man7.org/linux/man-pages/man2/connect.2.html .html',0,'man2::connect()'],['../socket__example__1_8cc.html#a6cc6fd02b96fd56cf35fe4bbe67a5d03',1,'connect(recvd.source_address):&#160;socket_example_1.cc'],['../socket__example__2_8cc.html#aeab79eb1e1d3987803d99fbbc40e9c94',1,'connect(Address(&quot;127.0.0.1&quot;, portnum)):&#160;socket_example_2.cc']]],
+  ['consecutive_5fretransmissions',['consecutive_retransmissions',['../class_t_c_p_sender.html#a519731179331616a3b78171be4aba09e',1,'TCPSender']]],
   ['console_5fcodes',['console_codes',['https://man7.org/linux/man-pages/man4/console_codes.4.html .html',0,'man4']]],
   ['console_5fioctl',['console_ioctl',['https://man7.org/linux/man-pages/man4/console_ioctl.4.html .html',0,'man4']]],
   ['const_5fpointer_5fcast',['const_pointer_cast',['https://en.cppreference.com/w/cpp/memory/shared_ptr/pointer_cast.html',0,'std']]],

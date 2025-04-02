@@ -89,6 +89,7 @@ var searchData=
   ['byte_5fstream_2ecc',['byte_stream.cc',['../byte__stream_8cc.html',1,'']]],
   ['byte_5fstream_2ehh',['byte_stream.hh',['../byte__stream_8hh.html',1,'']]],
   ['byteorder',['byteorder',['https://man7.org/linux/man-pages/man3/byteorder.3.html .html',0,'man3']]],
+  ['bytes_5fin_5fflight',['bytes_in_flight',['../class_t_c_p_sender.html#a9e3ae3e63f28355b2fd5453d6e5fa4fb',1,'TCPSender']]],
   ['bytes_5fread',['bytes_read',['../class_byte_stream.html#a2f0985ed739d369795deb8e12619b362',1,'ByteStream']]],
   ['bytes_5fwritten',['bytes_written',['../class_byte_stream.html#a3ec6c5ae2cd07b542946074196d0e930',1,'ByteStream']]],
   ['bytestream',['ByteStream',['../class_byte_stream.html',1,'ByteStream'],['../class_byte_stream.html#a6a344e7b329f769ecd44d337323cb599',1,'ByteStream::ByteStream()']]],

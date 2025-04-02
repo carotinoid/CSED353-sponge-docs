@@ -11,6 +11,7 @@ var searchData=
   ['access',['access',['https://man7.org/linux/man-pages/man2/access.2.html .html',0,'man2']]],
   ['acct',['acct',['https://man7.org/linux/man-pages/man2/acct.2.html .html',0,'man2::acct()'],['https://man7.org/linux/man-pages/man5/acct.5.html .html',0,'man5::acct()']]],
   ['accumulate',['accumulate',['https://en.cppreference.com/w/cpp/algorithm/accumulate.html',0,'std']]],
+  ['ack_5freceived',['ack_received',['../class_t_c_p_sender.html#a80c47f325eca5b34813e496daf21a44f',1,'TCPSender']]],
   ['ackno',['ackno',['../class_t_c_p_receiver.html#aff75af6d2f3b09767837715359d61f22',1,'TCPReceiver']]],
   ['acos',['acos',['https://en.cppreference.com/w/cpp/numeric/math/acos.html',0,'std::acos()'],['https://man7.org/linux/man-pages/man3/acos.3.html .html',0,'man3::acos()']]],
   ['acosf',['acosf',['https://man7.org/linux/man-pages/man3/acosf.3.html .html',0,'man3']]],

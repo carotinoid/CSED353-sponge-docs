@@ -76,6 +76,7 @@ var searchData=
   ['buffers',['buffers',['../class_buffer_list.html#a207363e83f8d373295200fa50ce53476',1,'BufferList']]],
   ['bufferviewlist',['BufferViewList',['../class_buffer_view_list.html#a4afd1f5bd264564e7a5b1cdef72d6c92',1,'BufferViewList::BufferViewList(const std::string &amp;str)'],['../class_buffer_view_list.html#a296f21f97ec6b39d10e47992edf6c085',1,'BufferViewList::BufferViewList(const char *s)'],['../class_buffer_view_list.html#ae2b3812450026f7eba65a82802b7b966',1,'BufferViewList::BufferViewList(const BufferList &amp;buffers)'],['../class_buffer_view_list.html#a486daed0a873f16c47f60761922882d3',1,'BufferViewList::BufferViewList(std::string_view str)']]],
   ['byteorder',['byteorder',['https://man7.org/linux/man-pages/man3/byteorder.3.html .html',0,'man3']]],
+  ['bytes_5fin_5fflight',['bytes_in_flight',['../class_t_c_p_sender.html#a9e3ae3e63f28355b2fd5453d6e5fa4fb',1,'TCPSender']]],
   ['bytes_5fread',['bytes_read',['../class_byte_stream.html#a2f0985ed739d369795deb8e12619b362',1,'ByteStream']]],
   ['bytes_5fwritten',['bytes_written',['../class_byte_stream.html#a3ec6c5ae2cd07b542946074196d0e930',1,'ByteStream']]],
   ['bytestream',['ByteStream',['../class_byte_stream.html#a6a344e7b329f769ecd44d337323cb599',1,'ByteStream']]],

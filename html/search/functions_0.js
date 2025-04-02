@@ -34,6 +34,7 @@ var searchData=
   ['_5fllseek',['_llseek',['https://man7.org/linux/man-pages/man2/_llseek.2.html .html',0,'man2']]],
   ['_5fnewselect',['_newselect',['https://man7.org/linux/man-pages/man2/_newselect.2.html .html',0,'man2']]],
   ['_5fparse_5fint',['_parse_int',['../class_net_parser.html#a6b5b2bf578869f2e015325803653e428',1,'NetParser']]],
+  ['_5fsend_5fsegment',['_send_segment',['../class_t_c_p_sender.html#a93dbf3fec43c5f4d5f74f5094919533d',1,'TCPSender']]],
   ['_5fsyscall',['_syscall',['https://man7.org/linux/man-pages/man2/_syscall.2.html .html',0,'man2']]],
   ['_5fsysctl',['_sysctl',['https://man7.org/linux/man-pages/man2/_sysctl.2.html .html',0,'man2']]],
   ['_5funparse_5fint',['_unparse_int',['../struct_net_unparser.html#a68bf8fd2aa34b01ae3ee570c94fe1557',1,'NetUnparser']]]
