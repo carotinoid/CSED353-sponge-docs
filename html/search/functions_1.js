@@ -19,6 +19,7 @@ var searchData=
   ['acoshf',['acoshf',['https://man7.org/linux/man-pages/man3/acoshf.3.html .html',0,'man3']]],
   ['acoshl',['acoshl',['https://man7.org/linux/man-pages/man3/acoshl.3.html .html',0,'man3']]],
   ['acosl',['acosl',['https://man7.org/linux/man-pages/man3/acosl.3.html .html',0,'man3']]],
+  ['active',['active',['../class_t_c_p_connection.html#a9e656ec49c94ed7e5f400dff60a4035e',1,'TCPConnection']]],
   ['add',['add',['../class_internet_checksum.html#ac64f217ad269377f3d02e13a6cc5fb3e',1,'InternetChecksum']]],
   ['add_5fkey',['add_key',['https://man7.org/linux/man-pages/man2/add_key.2.html .html',0,'man2']]],
   ['add_5frule',['add_rule',['../class_event_loop.html#a5692e0e50828af7b80f4b9f1e480ba2c',1,'EventLoop']]],

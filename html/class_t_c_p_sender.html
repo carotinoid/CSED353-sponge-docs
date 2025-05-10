@@ -124,9 +124,8 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a306cf63f4d6b0733e41ccd7533e57b3e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_t_c_p_sender.html#a306cf63f4d6b0733e41ccd7533e57b3e">_already_sent_when_zero_window</a> {false}</td></tr>
-<tr class="memdesc:a306cf63f4d6b0733e41ccd7533e57b3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">the flag indicating whether the <a class="el" href="class_t_c_p_sender.html" title="The &quot;sender&quot; part of a TCP implementation. ">TCPSender</a> has already sent a segment when the window was zero  <a href="#a306cf63f4d6b0733e41ccd7533e57b3e">More...</a><br /></td></tr>
-<tr class="separator:a306cf63f4d6b0733e41ccd7533e57b3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f8014fbacc3eb8f86b30f9ff16e74b8"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_t_c_p_sender.html#a4f8014fbacc3eb8f86b30f9ff16e74b8">_bytes_in_flight</a> {0}</td></tr>
+<tr class="separator:a4f8014fbacc3eb8f86b30f9ff16e74b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc732ea8f99733d93406724423ead058"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_t_c_p_sender.html#afc732ea8f99733d93406724423ead058">_FIN_sent</a> {false}</td></tr>
 <tr class="memdesc:afc732ea8f99733d93406724423ead058"><td class="mdescLeft">&#160;</td><td class="mdescRight">the flag indicating whether the <a class="el" href="class_t_c_p_sender.html" title="The &quot;sender&quot; part of a TCP implementation. ">TCPSender</a> has sent a FIN  <a href="#afc732ea8f99733d93406724423ead058">More...</a><br /></td></tr>
 <tr class="separator:afc732ea8f99733d93406724423ead058"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -169,11 +168,10 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ab91ca2a2078eba0203a6606b2de04aca"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_t_c_p_sender.html#ab91ca2a2078eba0203a6606b2de04aca">_total_time</a> {0}</td></tr>
 <tr class="memdesc:ab91ca2a2078eba0203a6606b2de04aca"><td class="mdescLeft">&#160;</td><td class="mdescRight">the time that has passed since the timer was started  <a href="#ab91ca2a2078eba0203a6606b2de04aca">More...</a><br /></td></tr>
 <tr class="separator:ab91ca2a2078eba0203a6606b2de04aca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af710ee3e7468f8ad9be58f856939a87f"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_t_c_p_sender.html#af710ee3e7468f8ad9be58f856939a87f">_used_window_size</a> {0}</td></tr>
+<tr class="separator:af710ee3e7468f8ad9be58f856939a87f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2cfa599fdb256450a4c2048d7d7d1304"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_t_c_p_sender.html#a2cfa599fdb256450a4c2048d7d7d1304">_window_size</a> {1}</td></tr>
 <tr class="separator:a2cfa599fdb256450a4c2048d7d7d1304"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aacd37af3b4410e1506d3debd7b4c56df"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_t_c_p_sender.html#aacd37af3b4410e1506d3debd7b4c56df">_window_was_zero</a> {false}</td></tr>
-<tr class="memdesc:aacd37af3b4410e1506d3debd7b4c56df"><td class="mdescLeft">&#160;</td><td class="mdescRight">the flag indicating whether the <a class="el" href="class_t_c_p_receiver.html" title="The &quot;receiver&quot; part of a TCP implementation. ">TCPReceiver</a> has sent a zero window  <a href="#aacd37af3b4410e1506d3debd7b4c56df">More...</a><br /></td></tr>
-<tr class="separator:aacd37af3b4410e1506d3debd7b4c56df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The "sender" part of a TCP implementation. </p>
@@ -223,7 +221,7 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="tcp__sender_8cc_source.html#l00014">14</a> of file <a class="el" href="tcp__sender_8cc_source.html">tcp_sender.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tcp__sender_8cc_source.html#l00015">15</a> of file <a class="el" href="tcp__sender_8cc_source.html">tcp_sender.cc</a>.</p>
 
 </div>
 </div>
@@ -269,7 +267,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section note"><dt>Note</dt><dd>Send a segment with the given payload and flags. The other fields will be filled in by _send_segment method automatically. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="tcp__sender_8cc_source.html#l00113">113</a> of file <a class="el" href="tcp__sender_8cc_source.html">tcp_sender.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tcp__sender_8cc_source.html#l00121">121</a> of file <a class="el" href="tcp__sender_8cc_source.html">tcp_sender.cc</a>.</p>
 
 </div>
 </div>
@@ -308,7 +306,7 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="tcp__sender_8cc_source.html#l00067">67</a> of file <a class="el" href="tcp__sender_8cc_source.html">tcp_sender.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tcp__sender_8cc_source.html#l00066">66</a> of file <a class="el" href="tcp__sender_8cc_source.html">tcp_sender.cc</a>.</p>
 
 </div>
 </div>
@@ -330,7 +328,7 @@ Private Attributes</h2></td></tr>
 <p>How many sequence numbers are occupied by segments sent but not yet acknowledged? </p>
 <dl class="section note"><dt>Note</dt><dd>count is in "sequence space," i.e. SYN and FIN each count for one byte (see <a class="el" href="class_t_c_p_segment.html#a41eb3ff25fee485849fd38eb31c990d6" title="Segment&#39;s length in sequence space. ">TCPSegment::length_in_sequence_space()</a>) </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="tcp__sender_8cc_source.html#l00020">20</a> of file <a class="el" href="tcp__sender_8cc_source.html">tcp_sender.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tcp__sender_8cc_source.html#l00021">21</a> of file <a class="el" href="tcp__sender_8cc_source.html">tcp_sender.cc</a>.</p>
 
 </div>
 </div>
@@ -351,7 +349,7 @@ Private Attributes</h2></td></tr>
 
 <p>Number of consecutive retransmissions that have occurred in a row. </p>
 
-<p class="definition">Definition at line <a class="el" href="tcp__sender_8cc_source.html#l00109">109</a> of file <a class="el" href="tcp__sender_8cc_source.html">tcp_sender.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tcp__sender_8cc_source.html#l00113">113</a> of file <a class="el" href="tcp__sender_8cc_source.html">tcp_sender.cc</a>.</p>
 
 </div>
 </div>
@@ -372,7 +370,7 @@ Private Attributes</h2></td></tr>
 
 <p>create and send segments to fill as much of the window as possible </p>
 
-<p class="definition">Definition at line <a class="el" href="tcp__sender_8cc_source.html#l00022">22</a> of file <a class="el" href="tcp__sender_8cc_source.html">tcp_sender.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tcp__sender_8cc_source.html#l00023">23</a> of file <a class="el" href="tcp__sender_8cc_source.html">tcp_sender.cc</a>.</p>
 
 </div>
 </div>
@@ -401,7 +399,7 @@ Private Attributes</h2></td></tr>
 
 <p>relative seqno for the next byte to be sent </p>
 
-<p class="definition">Definition at line <a class="el" href="tcp__sender_8hh_source.html#l00131">131</a> of file <a class="el" href="tcp__sender_8hh_source.html">tcp_sender.hh</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tcp__sender_8hh_source.html#l00135">135</a> of file <a class="el" href="tcp__sender_8hh_source.html">tcp_sender.hh</a>.</p>
 
 </div>
 </div>
@@ -430,7 +428,7 @@ Private Attributes</h2></td></tr>
 
 <p>absolute seqno for the next byte to be sent </p>
 
-<p class="definition">Definition at line <a class="el" href="tcp__sender_8hh_source.html#l00128">128</a> of file <a class="el" href="tcp__sender_8hh_source.html">tcp_sender.hh</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tcp__sender_8hh_source.html#l00132">132</a> of file <a class="el" href="tcp__sender_8hh_source.html">tcp_sender.hh</a>.</p>
 
 </div>
 </div>
@@ -458,9 +456,9 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>TCPSegments that the <a class="el" href="class_t_c_p_sender.html" title="The &quot;sender&quot; part of a TCP implementation. ">TCPSender</a> has enqueued for transmission. </p>
-<dl class="section note"><dt>Note</dt><dd>These must be dequeued and sent by the TCPConnection, which will need to fill in the fields that are set by the <a class="el" href="class_t_c_p_receiver.html" title="The &quot;receiver&quot; part of a TCP implementation. ">TCPReceiver</a> (ackno and window size) before sending. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>These must be dequeued and sent by the <a class="el" href="class_t_c_p_connection.html" title="A complete endpoint of a TCP connection. ">TCPConnection</a>, which will need to fill in the fields that are set by the <a class="el" href="class_t_c_p_receiver.html" title="The &quot;receiver&quot; part of a TCP implementation. ">TCPReceiver</a> (ackno and window size) before sending. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="tcp__sender_8hh_source.html#l00121">121</a> of file <a class="el" href="tcp__sender_8hh_source.html">tcp_sender.hh</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tcp__sender_8hh_source.html#l00125">125</a> of file <a class="el" href="tcp__sender_8hh_source.html">tcp_sender.hh</a>.</p>
 
 </div>
 </div>
@@ -481,7 +479,7 @@ Private Attributes</h2></td></tr>
 
 <p>Generate an empty-payload segment (useful for creating empty ACK segments) </p>
 
-<p class="definition">Definition at line <a class="el" href="tcp__sender_8cc_source.html#l00111">111</a> of file <a class="el" href="tcp__sender_8cc_source.html">tcp_sender.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tcp__sender_8cc_source.html#l00115">115</a> of file <a class="el" href="tcp__sender_8cc_source.html">tcp_sender.cc</a>.</p>
 
 </div>
 </div>
@@ -508,7 +506,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="tcp__sender_8hh_source.html#l00086">86</a> of file <a class="el" href="tcp__sender_8hh_source.html">tcp_sender.hh</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tcp__sender_8hh_source.html#l00090">90</a> of file <a class="el" href="tcp__sender_8hh_source.html">tcp_sender.hh</a>.</p>
 
 </div>
 </div>
@@ -535,7 +533,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="tcp__sender_8hh_source.html#l00087">87</a> of file <a class="el" href="tcp__sender_8hh_source.html">tcp_sender.hh</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tcp__sender_8hh_source.html#l00091">91</a> of file <a class="el" href="tcp__sender_8hh_source.html">tcp_sender.hh</a>.</p>
 
 </div>
 </div>
@@ -563,13 +561,13 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="tcp__sender_8cc_source.html#l00093">93</a> of file <a class="el" href="tcp__sender_8cc_source.html">tcp_sender.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tcp__sender_8cc_source.html#l00097">97</a> of file <a class="el" href="tcp__sender_8cc_source.html">tcp_sender.cc</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a306cf63f4d6b0733e41ccd7533e57b3e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a306cf63f4d6b0733e41ccd7533e57b3e">&#9670;&nbsp;</a></span>_already_sent_when_zero_window</h2>
+<a id="a4f8014fbacc3eb8f86b30f9ff16e74b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f8014fbacc3eb8f86b30f9ff16e74b8">&#9670;&nbsp;</a></span>_bytes_in_flight</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -578,7 +576,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool TCPSender::_already_sent_when_zero_window {false}</td>
+          <td class="memname">uint64_t TCPSender::_bytes_in_flight {0}</td>
         </tr>
       </table>
   </td>
@@ -588,9 +586,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>the flag indicating whether the <a class="el" href="class_t_c_p_sender.html" title="The &quot;sender&quot; part of a TCP implementation. ">TCPSender</a> has already sent a segment when the window was zero </p>
-
-<p class="definition">Definition at line <a class="el" href="tcp__sender_8hh_source.html#l00072">72</a> of file <a class="el" href="tcp__sender_8hh_source.html">tcp_sender.hh</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tcp__sender_8hh_source.html#l00064">64</a> of file <a class="el" href="tcp__sender_8hh_source.html">tcp_sender.hh</a>.</p>
 
 </div>
 </div>
@@ -616,7 +612,7 @@ Private Attributes</h2></td></tr>
 
 <p>the flag indicating whether the <a class="el" href="class_t_c_p_sender.html" title="The &quot;sender&quot; part of a TCP implementation. ">TCPSender</a> has sent a FIN </p>
 
-<p class="definition">Definition at line <a class="el" href="tcp__sender_8hh_source.html#l00066">66</a> of file <a class="el" href="tcp__sender_8hh_source.html">tcp_sender.hh</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tcp__sender_8hh_source.html#l00070">70</a> of file <a class="el" href="tcp__sender_8hh_source.html">tcp_sender.hh</a>.</p>
 
 </div>
 </div>
@@ -720,7 +716,7 @@ Private Attributes</h2></td></tr>
 
 <p>the maximum number of retransmissions that will be attempted </p>
 
-<p class="definition">Definition at line <a class="el" href="tcp__sender_8hh_source.html#l00057">57</a> of file <a class="el" href="tcp__sender_8hh_source.html">tcp_sender.hh</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tcp__sender_8hh_source.html#l00059">59</a> of file <a class="el" href="tcp__sender_8hh_source.html">tcp_sender.hh</a>.</p>
 
 </div>
 </div>
@@ -772,7 +768,7 @@ Private Attributes</h2></td></tr>
 
 <p>the number of retransmissions that have occurred in a row </p>
 
-<p class="definition">Definition at line <a class="el" href="tcp__sender_8hh_source.html#l00051">51</a> of file <a class="el" href="tcp__sender_8hh_source.html">tcp_sender.hh</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tcp__sender_8hh_source.html#l00053">53</a> of file <a class="el" href="tcp__sender_8hh_source.html">tcp_sender.hh</a>.</p>
 
 </div>
 </div>
@@ -798,7 +794,7 @@ Private Attributes</h2></td></tr>
 
 <p>the buffer of segments that are waiting to be possibly retransmitted </p>
 
-<p class="definition">Definition at line <a class="el" href="tcp__sender_8hh_source.html#l00060">60</a> of file <a class="el" href="tcp__sender_8hh_source.html">tcp_sender.hh</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tcp__sender_8hh_source.html#l00062">62</a> of file <a class="el" href="tcp__sender_8hh_source.html">tcp_sender.hh</a>.</p>
 
 </div>
 </div>
@@ -824,7 +820,7 @@ Private Attributes</h2></td></tr>
 
 <p>the time that the <a class="el" href="class_t_c_p_sender.html" title="The &quot;sender&quot; part of a TCP implementation. ">TCPSender</a> will wait before retransmitting </p>
 
-<p class="definition">Definition at line <a class="el" href="tcp__sender_8hh_source.html#l00054">54</a> of file <a class="el" href="tcp__sender_8hh_source.html">tcp_sender.hh</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tcp__sender_8hh_source.html#l00056">56</a> of file <a class="el" href="tcp__sender_8hh_source.html">tcp_sender.hh</a>.</p>
 
 </div>
 </div>
@@ -902,7 +898,7 @@ Private Attributes</h2></td></tr>
 
 <p>the flag indicating whether the <a class="el" href="class_t_c_p_sender.html" title="The &quot;sender&quot; part of a TCP implementation. ">TCPSender</a> has sent a SYN </p>
 
-<p class="definition">Definition at line <a class="el" href="tcp__sender_8hh_source.html#l00063">63</a> of file <a class="el" href="tcp__sender_8hh_source.html">tcp_sender.hh</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tcp__sender_8hh_source.html#l00067">67</a> of file <a class="el" href="tcp__sender_8hh_source.html">tcp_sender.hh</a>.</p>
 
 </div>
 </div>
@@ -928,7 +924,7 @@ Private Attributes</h2></td></tr>
 
 <p>the flag indicating whether the timer is running </p>
 
-<p class="definition">Definition at line <a class="el" href="tcp__sender_8hh_source.html#l00045">45</a> of file <a class="el" href="tcp__sender_8hh_source.html">tcp_sender.hh</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tcp__sender_8hh_source.html#l00047">47</a> of file <a class="el" href="tcp__sender_8hh_source.html">tcp_sender.hh</a>.</p>
 
 </div>
 </div>
@@ -954,7 +950,31 @@ Private Attributes</h2></td></tr>
 
 <p>the time that has passed since the timer was started </p>
 
-<p class="definition">Definition at line <a class="el" href="tcp__sender_8hh_source.html#l00048">48</a> of file <a class="el" href="tcp__sender_8hh_source.html">tcp_sender.hh</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tcp__sender_8hh_source.html#l00050">50</a> of file <a class="el" href="tcp__sender_8hh_source.html">tcp_sender.hh</a>.</p>
+
+</div>
+</div>
+<a id="af710ee3e7468f8ad9be58f856939a87f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af710ee3e7468f8ad9be58f856939a87f">&#9670;&nbsp;</a></span>_used_window_size</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t TCPSender::_used_window_size {0}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="tcp__sender_8hh_source.html#l00044">44</a> of file <a class="el" href="tcp__sender_8hh_source.html">tcp_sender.hh</a>.</p>
 
 </div>
 </div>
@@ -982,32 +1002,6 @@ Private Attributes</h2></td></tr>
 So, the actual meaning of this variable is the size of the <a class="el" href="class_t_c_p_receiver.html" title="The &quot;receiver&quot; part of a TCP implementation. ">TCPReceiver</a>'s modified window which <a class="el" href="class_t_c_p_sender.html" title="The &quot;sender&quot; part of a TCP implementation. ">TCPSender</a> can use to send segments, not real window. </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="tcp__sender_8hh_source.html#l00042">42</a> of file <a class="el" href="tcp__sender_8hh_source.html">tcp_sender.hh</a>.</p>
-
-</div>
-</div>
-<a id="aacd37af3b4410e1506d3debd7b4c56df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aacd37af3b4410e1506d3debd7b4c56df">&#9670;&nbsp;</a></span>_window_was_zero</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool TCPSender::_window_was_zero {false}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>the flag indicating whether the <a class="el" href="class_t_c_p_receiver.html" title="The &quot;receiver&quot; part of a TCP implementation. ">TCPReceiver</a> has sent a zero window </p>
-
-<p class="definition">Definition at line <a class="el" href="tcp__sender_8hh_source.html#l00069">69</a> of file <a class="el" href="tcp__sender_8hh_source.html">tcp_sender.hh</a>.</p>
 
 </div>
 </div>

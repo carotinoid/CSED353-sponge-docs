@@ -65,22 +65,118 @@ $(function() {
 </div>
 </div><!-- top -->
 <div class="header">
+  <div class="summary">
+<a href="#define-members">Macros</a>  </div>
   <div class="headertitle">
 <div class="title">stream_reassembler.cc File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="stream__reassembler_8hh_source.html">stream_reassembler.hh</a>&quot;</code><br />
+<code>#include &lt;iostream&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for stream_reassembler.cc:</div>
 <div class="dyncontent">
 <div class="center"><img src="stream__reassembler_8cc__incl.png" border="0" usemap="#_2home_2cs144_2_c_s_e_d353-sponge_2libsponge_2stream__reassembler_8cc" alt=""/></div>
 <map name="_2home_2cs144_2_c_s_e_d353-sponge_2libsponge_2stream__reassembler_8cc" id="_2home_2cs144_2_c_s_e_d353-sponge_2libsponge_2stream__reassembler_8cc">
-<area shape="rect" id="node2" href="stream__reassembler_8hh.html" title="stream_reassembler.hh" alt="" coords="109,109,267,136"/>
+<area shape="rect" id="node2" href="stream__reassembler_8hh.html" title="stream_reassembler.hh" alt="" coords="195,109,354,136"/>
 <area shape="rect" id="node3" href="byte__stream_8hh.html" title="byte_stream.hh" alt="" coords="5,184,117,211"/>
 </map>
 </div>
 </div>
 <p><a href="stream__reassembler_8cc_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:ae0945588c2eafffcf23b67e6608e808f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stream__reassembler_8cc.html#ae0945588c2eafffcf23b67e6608e808f">Left</a>(x)&#160;&#160;&#160;x.first</td></tr>
+<tr class="separator:ae0945588c2eafffcf23b67e6608e808f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f9023d37ac54893eb596b1036c9cbf3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stream__reassembler_8cc.html#a0f9023d37ac54893eb596b1036c9cbf3">Right</a>(x)&#160;&#160;&#160;x.first + x.second.length()</td></tr>
+<tr class="separator:a0f9023d37ac54893eb596b1036c9cbf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0516d21da4a161dfea5fb0fa8867450b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stream__reassembler_8cc.html#a0516d21da4a161dfea5fb0fa8867450b">Sizeof</a>(x)&#160;&#160;&#160;x.second.length()</td></tr>
+<tr class="separator:a0516d21da4a161dfea5fb0fa8867450b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bbe979a5cb850a7644f2c7938835afb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stream__reassembler_8cc.html#a8bbe979a5cb850a7644f2c7938835afb">Str</a>(x)&#160;&#160;&#160;x.second</td></tr>
+<tr class="separator:a8bbe979a5cb850a7644f2c7938835afb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ae0945588c2eafffcf23b67e6608e808f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0945588c2eafffcf23b67e6608e808f">&#9670;&nbsp;</a></span>Left</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define Left</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td>&#160;&#160;&#160;x.first</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="stream__reassembler_8cc_source.html#l00003">3</a> of file <a class="el" href="stream__reassembler_8cc_source.html">stream_reassembler.cc</a>.</p>
+
+</div>
+</div>
+<a id="a0f9023d37ac54893eb596b1036c9cbf3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f9023d37ac54893eb596b1036c9cbf3">&#9670;&nbsp;</a></span>Right</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define Right</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td>&#160;&#160;&#160;x.first + x.second.length()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="stream__reassembler_8cc_source.html#l00004">4</a> of file <a class="el" href="stream__reassembler_8cc_source.html">stream_reassembler.cc</a>.</p>
+
+</div>
+</div>
+<a id="a0516d21da4a161dfea5fb0fa8867450b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0516d21da4a161dfea5fb0fa8867450b">&#9670;&nbsp;</a></span>Sizeof</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define Sizeof</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td>&#160;&#160;&#160;x.second.length()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="stream__reassembler_8cc_source.html#l00005">5</a> of file <a class="el" href="stream__reassembler_8cc_source.html">stream_reassembler.cc</a>.</p>
+
+</div>
+</div>
+<a id="a8bbe979a5cb850a7644f2c7938835afb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bbe979a5cb850a7644f2c7938835afb">&#9670;&nbsp;</a></span>Str</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define Str</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td>&#160;&#160;&#160;x.second</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="stream__reassembler_8cc_source.html#l00006">6</a> of file <a class="el" href="stream__reassembler_8cc_source.html">stream_reassembler.cc</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

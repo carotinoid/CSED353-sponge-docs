@@ -65,10 +65,12 @@ $(function() {
 
 <h3><a id="index_s"></a>- s -</h3><ul>
 <li>segment_received()
-: <a class="el" href="class_t_c_p_receiver.html#a09196eeb6c9aa44f7fd56c7140713ed8">TCPReceiver</a>
+: <a class="el" href="class_t_c_p_connection.html#a767873a9b8e1c529ffcc57344e154262">TCPConnection</a>
+, <a class="el" href="class_t_c_p_receiver.html#a09196eeb6c9aa44f7fd56c7140713ed8">TCPReceiver</a>
 </li>
 <li>segments_out()
-: <a class="el" href="class_t_c_p_sender.html#a52cc8ec9f0fa3ce0f634b84258e7627c">TCPSender</a>
+: <a class="el" href="class_t_c_p_connection.html#a3ef5e355211278950fd41bf4909d4b27">TCPConnection</a>
+, <a class="el" href="class_t_c_p_sender.html#a52cc8ec9f0fa3ce0f634b84258e7627c">TCPSender</a>
 </li>
 <li>send()
 : <a class="el" href="class_u_d_p_socket.html#a72727325869a92bf1df91ab99f72daf9">UDPSocket</a>
@@ -76,8 +78,20 @@ $(function() {
 <li>send_capacity
 : <a class="el" href="class_t_c_p_config.html#a43d3d377be7e638040376860c3f5f554">TCPConfig</a>
 </li>
+<li>send_datagram()
+: <a class="el" href="class_network_interface.html#a505f784c901e4caa04e6d01fc3e2dc49">NetworkInterface</a>
+</li>
 <li>send_empty_segment()
 : <a class="el" href="class_t_c_p_sender.html#a475dcb88e9662cf42b0e9d240c31de5c">TCPSender</a>
+</li>
+<li>send_pending()
+: <a class="el" href="class_t_c_p_over_i_pv4_over_ethernet_adapter.html#ae01df7322517fa577de6467bcc20a421">TCPOverIPv4OverEthernetAdapter</a>
+</li>
+<li>sender_ethernet_address
+: <a class="el" href="struct_a_r_p_message.html#ab021ba0af473c7bbe6287ab085fc5798">ARPMessage</a>
+</li>
+<li>sender_ip_address
+: <a class="el" href="struct_a_r_p_message.html#ae40c43fa6c4559eee52e90a7720b2fbd">ARPMessage</a>
 </li>
 <li>sendto()
 : <a class="el" href="class_u_d_p_socket.html#af8c3554c3102b93a56eee18f30485078">UDPSocket</a>
@@ -86,7 +100,12 @@ $(function() {
 : <a class="el" href="struct_t_c_p_header.html#addc28f8494a816c5fc9a514e666ce34a">TCPHeader</a>
 </li>
 <li>serialize()
-: <a class="el" href="struct_t_c_p_header.html#a3ddbd3e4e68ce45e05714cd96493cf6d">TCPHeader</a>
+: <a class="el" href="struct_a_r_p_message.html#a26f48f16d44bf687f247099a46f80647">ARPMessage</a>
+, <a class="el" href="class_ethernet_frame.html#a497ade369c9874d22c13c39d80672465">EthernetFrame</a>
+, <a class="el" href="struct_ethernet_header.html#ac8c8348b36a92952e6b3a0a518d32f47">EthernetHeader</a>
+, <a class="el" href="class_i_pv4_datagram.html#aeaf447d169d4c7908dacf9f1fb851e6b">IPv4Datagram</a>
+, <a class="el" href="struct_i_pv4_header.html#af36a5db38b34d59cf08f2ae52a0c6f51">IPv4Header</a>
+, <a class="el" href="struct_t_c_p_header.html#a3ddbd3e4e68ce45e05714cd96493cf6d">TCPHeader</a>
 , <a class="el" href="class_t_c_p_segment.html#a23ac48a9c3e7eaed47dce0cb98c1559d">TCPSegment</a>
 </li>
 <li>service_count()
@@ -99,8 +118,13 @@ $(function() {
 : <a class="el" href="class_byte_stream.html#a816938c16b076aac391eaf239794254f">ByteStream</a>
 , <a class="el" href="class_net_parser.html#a502192ff9fde65cfb712e55cc31e222b">NetParser</a>
 </li>
+<li>set_listening()
+: <a class="el" href="class_fd_adapter_base.html#ae2ad692ba721d8e5dde08f6d93016da1">FdAdapterBase</a>
+, <a class="el" href="class_lossy_fd_adapter.html#a07ed3e034bba6d8e767a3ec114a3a11f">LossyFdAdapter&lt; AdapterT &gt;</a>
+</li>
 <li>set_reuseaddr()
 : <a class="el" href="class_socket.html#afc6ed565fddaa9d7ee4904ecc96bb6c0">Socket</a>
+, <a class="el" href="class_t_c_p_sponge_socket.html#a80810ab3dc6eb4b846580c4b98050fad">TCPSpongeSocket&lt; AdaptT &gt;</a>
 </li>
 <li>setsockopt()
 : <a class="el" href="class_socket.html#aaed9784f0b69e899124fe1f5c0ac1065">Socket</a>
@@ -126,6 +150,16 @@ $(function() {
 <li>sport
 : <a class="el" href="struct_t_c_p_header.html#ab92e3d2be1ff024b15006bc4e26a9497">TCPHeader</a>
 </li>
+<li>src
+: <a class="el" href="struct_ethernet_header.html#af8c18a29ad1dc7e5c5f39f4dd372897e">EthernetHeader</a>
+, <a class="el" href="struct_i_pv4_header.html#a329f8430cd3e1e1f6f26867853a4f8bc">IPv4Header</a>
+</li>
+<li>state()
+: <a class="el" href="class_t_c_p_connection.html#a92855937963c5e6d4f95ce2894effa95">TCPConnection</a>
+</li>
+<li>State
+: <a class="el" href="class_t_c_p_state.html#a5e61339ebb08d5cd279b949f82f2fd52">TCPState</a>
+</li>
 <li>state_summary()
 : <a class="el" href="class_t_c_p_state.html#a2e43b417f701f23b2b81cd9661758e6f">TCPState</a>
 </li>
@@ -139,14 +173,18 @@ $(function() {
 : <a class="el" href="class_t_c_p_sender.html#a93790e4bb3340302ddc6eedbcc4d2e9e">TCPSender</a>
 </li>
 <li>stream_out()
-: <a class="el" href="class_stream_reassembler.html#ae9dda8ee7234c3cbcca768d5c99aa4b2">StreamReassembler</a>
-, <a class="el" href="class_t_c_p_receiver.html#a1b63134e8e3c2cb4e66609387a0160c4">TCPReceiver</a>
+: <a class="el" href="class_stream_reassembler.html#a88dfa4936e4b63fc2546899e48252352">StreamReassembler</a>
+, <a class="el" href="class_t_c_p_receiver.html#a35dc6ada0aa18008f6e844ace40620ec">TCPReceiver</a>
 </li>
 <li>StreamReassembler()
 : <a class="el" href="class_stream_reassembler.html#a58192a31e51958eb806d0ae059f8b978">StreamReassembler</a>
 </li>
 <li>summary()
-: <a class="el" href="struct_t_c_p_header.html#a1d3ea84248eb58f4de1d5962e3c0bda3">TCPHeader</a>
+: <a class="el" href="struct_i_pv4_header.html#a3bee486d742a37d1362b4a3b020bff1a">IPv4Header</a>
+, <a class="el" href="struct_t_c_p_header.html#a1d3ea84248eb58f4de1d5962e3c0bda3">TCPHeader</a>
+</li>
+<li>supported()
+: <a class="el" href="struct_a_r_p_message.html#a076ae6206701fb025fc3570a85780751">ARPMessage</a>
 </li>
 <li>syn
 : <a class="el" href="struct_t_c_p_header.html#a58118d63251dd97fa525a483df599897">TCPHeader</a>

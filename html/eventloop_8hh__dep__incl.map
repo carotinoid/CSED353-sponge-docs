@@ -1,3 +1,10 @@
 <map id="/home/cs144/CSED353&#45;sponge/libsponge/util/eventloop.hh" name="/home/cs144/CSED353&#45;sponge/libsponge/util/eventloop.hh">
-<area shape="rect" id="node2" href="$eventloop_8cc.html" title="/home/cs144/CSED353\l&#45;sponge/libsponge/util\l/eventloop.cc" alt="" coords="5,109,165,165"/>
+<area shape="rect" id="node2" href="$bidirectional__stream__copy_8cc.html" title="/home/cs144/CSED353\l&#45;sponge/apps/bidirectional\l_stream_copy.cc" alt="" coords="167,109,340,165"/>
+<area shape="rect" id="node3" href="$tcp__sponge__socket_8hh.html" title="/home/cs144/CSED353\l&#45;sponge/libsponge/tcp\l_helpers/tcp_sponge_socket.hh" alt="" coords="365,109,571,165"/>
+<area shape="rect" id="node9" href="$eventloop_8cc.html" title="/home/cs144/CSED353\l&#45;sponge/libsponge/util\l/eventloop.cc" alt="" coords="596,109,756,165"/>
+<area shape="rect" id="node4" href="$tcp__ip__ethernet_8cc.html" title="/home/cs144/CSED353\l&#45;sponge/apps/tcp_ip\l_ethernet.cc" alt="" coords="5,213,165,269"/>
+<area shape="rect" id="node5" href="$tcp__ipv4_8cc.html" title="/home/cs144/CSED353\l&#45;sponge/apps/tcp_ipv4.cc" alt="" coords="189,221,360,262"/>
+<area shape="rect" id="node6" href="$tcp__udp_8cc.html" title="/home/cs144/CSED353\l&#45;sponge/apps/tcp_udp.cc" alt="" coords="384,221,552,262"/>
+<area shape="rect" id="node7" href="$webget_8cc.html" title="/home/cs144/CSED353\l&#45;sponge/apps/webget.cc" alt="" coords="577,221,741,262"/>
+<area shape="rect" id="node8" href="$tcp__sponge__socket_8cc.html" title="/home/cs144/CSED353\l&#45;sponge/libsponge/tcp\l_helpers/tcp_sponge_socket.cc" alt="" coords="765,213,971,269"/>
 </map>

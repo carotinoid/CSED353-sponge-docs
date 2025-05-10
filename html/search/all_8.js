@@ -1,7 +1,9 @@
 var searchData=
 [
   ['h_5ferrno',['h_errno',['https://man7.org/linux/man-pages/man3/h_errno.3.html .html',0,'man3']]],
+  ['hardware_5faddress_5fsize',['hardware_address_size',['../struct_a_r_p_message.html#aca055d3418d3364ab2ea945327d0ba1e',1,'ARPMessage']]],
   ['hardware_5fconcurrency',['hardware_concurrency',['https://en.cppreference.com/w/cpp/thread/thread/hardware_concurrency.html',0,'std::thread']]],
+  ['hardware_5ftype',['hardware_type',['../struct_a_r_p_message.html#a41ce010ffbe4da9a24d8202ac3489748',1,'ARPMessage']]],
   ['has_5ffacet',['has_facet',['https://en.cppreference.com/w/cpp/locale/has_facet.html',0,'std']]],
   ['has_5fvirtual_5fdestructor',['has_virtual_destructor',['https://en.cppreference.com/w/cpp/types/has_virtual_destructor.html',0,'std']]],
   ['hash',['hash',['https://en.cppreference.com/w/cpp/utility/hash.html',0,'std::hash'],['https://en.cppreference.com/w/cpp/locale/collate/hash.html',0,'std::collate_byname::hash()'],['https://en.cppreference.com/w/cpp/utility/hash/hash.html',0,'std::hash::hash()'],['https://en.cppreference.com/w/cpp/locale/collate/hash.html',0,'std::collate::hash()'],['https://man7.org/linux/man-pages/man3/hash.3.html .html',0,'man3::hash()']]],
@@ -13,7 +15,7 @@ var searchData=
   ['hd',['hd',['https://man7.org/linux/man-pages/man4/hd.4.html .html',0,'man4']]],
   ['hdestroy',['hdestroy',['https://man7.org/linux/man-pages/man3/hdestroy.3.html .html',0,'man3']]],
   ['hdestroy_5fr',['hdestroy_r',['https://man7.org/linux/man-pages/man3/hdestroy_r.3.html .html',0,'man3']]],
-  ['header',['header',['../class_t_c_p_segment.html#a32f90a3bec100f9c5943b73373b1b6fe',1,'TCPSegment::header() const'],['../class_t_c_p_segment.html#aaa88c247b31f574689b1e91582088df0',1,'TCPSegment::header()']]],
+  ['header',['header',['../class_ethernet_frame.html#a68c734091e875b9bba065557c7260b80',1,'EthernetFrame::header() const'],['../class_ethernet_frame.html#acefe52cdf91ad45cf94187b1544c0bc2',1,'EthernetFrame::header()'],['../class_i_pv4_datagram.html#a2a0d5b5a96a7ba49b9e0c899909a83e8',1,'IPv4Datagram::header() const'],['../class_i_pv4_datagram.html#a6a5e8efd06834504cc509cda81f3d8c1',1,'IPv4Datagram::header()'],['../class_t_c_p_segment.html#a32f90a3bec100f9c5943b73373b1b6fe',1,'TCPSegment::header() const'],['../class_t_c_p_segment.html#aaa88c247b31f574689b1e91582088df0',1,'TCPSegment::header()']]],
   ['headertooshort',['HeaderTooShort',['../parser_8hh.html#ac77cdc32c6f64752dca142a88308d66daf73a13813e0dd255437f9544a8cab8c0',1,'parser.hh']]],
   ['hecto',['hecto',['https://en.cppreference.com/w/cpp/numeric/ratio/ratio.html',0,'std']]],
   ['herror',['herror',['https://man7.org/linux/man-pages/man3/herror.3.html .html',0,'man3']]],
@@ -22,6 +24,7 @@ var searchData=
   ['hexfloat',['hexfloat',['https://en.cppreference.com/w/cpp/io/manip/fixed.html',0,'std']]],
   ['hier',['hier',['https://man7.org/linux/man-pages/man7/hier.7.html .html',0,'man7']]],
   ['high_5fresolution_5fclock',['high_resolution_clock',['https://en.cppreference.com/w/cpp/chrono/high_resolution_clock.html',0,'std::chrono']]],
+  ['hlen',['hlen',['../struct_i_pv4_header.html#ad894d7ba0fddebdb1462728692fe8711',1,'IPv4Header']]],
   ['host_2econf',['host.conf',['https://man7.org/linux/man-pages/man5/host.conf.5.html .html',0,'man5']]],
   ['hostname',['hostname',['https://man7.org/linux/man-pages/man7/hostname.7.html .html',0,'man7']]],
   ['hosts',['hosts',['https://man7.org/linux/man-pages/man5/hosts.5.html .html',0,'man5']]],

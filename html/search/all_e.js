@@ -1,10 +1,10 @@
 var searchData=
 [
   ['n',['n',['https://en.cppreference.com/w/cpp/numeric/random/student_t_distribution/n.html',0,'std::student_t_distribution::n()'],['https://en.cppreference.com/w/cpp/numeric/random/chi_squared_distribution/n.html',0,'std::chi_squared_distribution::n()'],['https://en.cppreference.com/w/cpp/numeric/random/fisher_f_distribution/params.html',0,'std::fisher_f_distribution::n()']]],
-  ['name',['name',['https://en.cppreference.com/w/cpp/locale/locale/name.html',0,'std::locale::name()'],['https://en.cppreference.com/w/cpp/error/error_category/name.html',0,'std::error_category::name()'],['https://en.cppreference.com/w/cpp/types/type_info/name.html',0,'std::type_info::name()'],['https://en.cppreference.com/w/cpp/types/type_index/name.html',0,'std::type_index::name()'],['../classgai__error__category.html#ac56024110f7032d6df05a55c4d164027',1,'gai_error_category::name()']]],
+  ['name',['name',['https://en.cppreference.com/w/cpp/locale/locale/name.html',0,'std::locale::name()'],['https://en.cppreference.com/w/cpp/error/error_category/name.html',0,'std::error_category::name()'],['https://en.cppreference.com/w/cpp/types/type_info/name.html',0,'std::type_info::name()'],['https://en.cppreference.com/w/cpp/types/type_index/name.html',0,'std::type_index::name()'],['../class_t_c_p_state.html#ad2026dd78b93fab205e71e08365d9a2e',1,'TCPState::name()'],['../classgai__error__category.html#ac56024110f7032d6df05a55c4d164027',1,'gai_error_category::name()']]],
   ['name_5fto_5fhandle_5fat',['name_to_handle_at',['https://man7.org/linux/man-pages/man2/name_to_handle_at.2.html .html',0,'man2']]],
   ['namespaces',['namespaces',['https://man7.org/linux/man-pages/man7/namespaces.7.html .html',0,'man7']]],
-  ['nan',['NAN',['https://man7.org/linux/man-pages/man3/NAN.3.html .html',0,'man3::NAN()'],['https://en.cppreference.com/w/cpp/numeric/math/nan.html',0,'std::nan()'],['https://man7.org/linux/man-pages/man3/nan.3.html .html',0,'man3::nan()']]],
+  ['nan',['nan',['https://en.cppreference.com/w/cpp/numeric/math/nan.html',0,'std::nan()'],['https://man7.org/linux/man-pages/man3/nan.3.html .html',0,'man3::nan'],['https://man7.org/linux/man-pages/man3/NAN.3.html .html',0,'man3::NAN']]],
   ['nanf',['nanf',['https://en.cppreference.com/w/cpp/numeric/math/nan.html',0,'std::nanf()'],['https://man7.org/linux/man-pages/man3/nanf.3.html .html',0,'man3::nanf()']]],
   ['nanl',['nanl',['https://en.cppreference.com/w/cpp/numeric/math/nan.html',0,'std::nanl()'],['https://man7.org/linux/man-pages/man3/nanl.3.html .html',0,'man3::nanl()']]],
   ['nano',['nano',['https://en.cppreference.com/w/cpp/numeric/ratio/ratio.html',0,'std']]],
@@ -25,7 +25,10 @@ var searchData=
   ['netlink',['netlink',['https://man7.org/linux/man-pages/man3/netlink.3.html .html',0,'man3::netlink()'],['https://man7.org/linux/man-pages/man7/netlink.7.html .html',0,'man7::netlink()']]],
   ['netparser',['NetParser',['../class_net_parser.html',1,'NetParser'],['../class_net_parser.html#a6e0c0f6f2668ec58e640310dff7b201b',1,'NetParser::NetParser()']]],
   ['netunparser',['NetUnparser',['../struct_net_unparser.html',1,'']]],
+  ['network_5finterface_2ecc',['network_interface.cc',['../network__interface_8cc.html',1,'']]],
+  ['network_5finterface_2ehh',['network_interface.hh',['../network__interface_8hh.html',1,'']]],
   ['network_5fnamespaces',['network_namespaces',['https://man7.org/linux/man-pages/man7/network_namespaces.7.html .html',0,'man7']]],
+  ['networkinterface',['NetworkInterface',['../class_network_interface.html',1,'NetworkInterface'],['../class_network_interface.html#a0bae4bd8c1a1a38028ba16e3c1626ada',1,'NetworkInterface::NetworkInterface()']]],
   ['networks',['networks',['https://man7.org/linux/man-pages/man5/networks.5.html .html',0,'man5']]],
   ['new_5fhandler',['new_handler',['https://en.cppreference.com/w/cpp/memory/new/new_handler.html',0,'std']]],
   ['newfstatat',['newfstatat',['https://man7.org/linux/man-pages/man2/newfstatat.2.html .html',0,'man2']]],

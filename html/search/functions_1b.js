@@ -70,6 +70,8 @@ var searchData=
   ['_7estreambuf',['~streambuf',['https://en.cppreference.com/w/cpp/io/basic_streambuf/~basic_streambuf.html',0,'std::streambuf']]],
   ['_7estrstream',['~strstream',['https://en.cppreference.com/w/cpp/io/strstream/~strstream.html',0,'std::strstream']]],
   ['_7estrstreambuf',['~strstreambuf',['https://en.cppreference.com/w/cpp/io/strstreambuf/~strstreambuf.html',0,'std::strstreambuf']]],
+  ['_7etcpconnection',['~TCPConnection',['../class_t_c_p_connection.html#a0b79ac9c31e99766954c9cca733a362d',1,'TCPConnection']]],
+  ['_7etcpspongesocket',['~TCPSpongeSocket',['../class_t_c_p_sponge_socket.html#a739148293d19df3fce290fbd31f1923c',1,'TCPSpongeSocket']]],
   ['_7ethread',['~thread',['https://en.cppreference.com/w/cpp/thread/thread/~thread.html',0,'std::thread']]],
   ['_7etime_5fget',['~time_get',['https://en.cppreference.com/w/cpp/locale/time_get/~time_get.html',0,'std::time_get']]],
   ['_7etime_5fget_5fbyname',['~time_get_byname',['https://en.cppreference.com/w/cpp/locale/time_get_byname.html',0,'std::time_get_byname']]],

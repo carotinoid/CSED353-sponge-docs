@@ -7,6 +7,7 @@ var searchData=
   ['nested_5fexception',['nested_exception',['https://en.cppreference.com/w/cpp/error/nested_exception.html',0,'std']]],
   ['netparser',['NetParser',['../class_net_parser.html',1,'']]],
   ['netunparser',['NetUnparser',['../struct_net_unparser.html',1,'']]],
+  ['networkinterface',['NetworkInterface',['../class_network_interface.html',1,'']]],
   ['new_5fhandler',['new_handler',['https://en.cppreference.com/w/cpp/memory/new/new_handler.html',0,'std']]],
   ['normal_5fdistribution',['normal_distribution',['https://en.cppreference.com/w/cpp/numeric/random/normal_distribution.html',0,'std']]],
   ['not_5fequal_5fto',['not_equal_to',['https://en.cppreference.com/w/cpp/utility/functional/not_equal_to.html',0,'std']]],

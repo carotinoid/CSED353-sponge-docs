@@ -27,6 +27,8 @@ var searchData=
   ['invalid_5fargument',['invalid_argument',['https://en.cppreference.com/w/cpp/error/invalid_argument.html',0,'std']]],
   ['ios_5fbase',['ios_base',['https://en.cppreference.com/w/cpp/io/ios_base.html',0,'std']]],
   ['iostream',['iostream',['https://en.cppreference.com/w/cpp/io/basic_iostream.html',0,'std']]],
+  ['ipv4datagram',['IPv4Datagram',['../class_i_pv4_datagram.html',1,'']]],
+  ['ipv4header',['IPv4Header',['../struct_i_pv4_header.html',1,'']]],
   ['is_5fabstract',['is_abstract',['https://en.cppreference.com/w/cpp/types/is_abstract.html',0,'std']]],
   ['is_5farithmetic',['is_arithmetic',['https://en.cppreference.com/w/cpp/types/is_arithmetic.html',0,'std']]],
   ['is_5farray',['is_array',['https://en.cppreference.com/w/cpp/types/is_array.html',0,'std']]],
