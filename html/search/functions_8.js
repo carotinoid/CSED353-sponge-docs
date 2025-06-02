@@ -18,6 +18,7 @@ var searchData=
   ['hexdump',['hexdump',['../util_8cc.html#a7172b6974464e0d304935692db483989',1,'hexdump(const uint8_t *data, const size_t len, const size_t indent):&#160;util.cc'],['../util_8cc.html#af6a30760f60dd7073eaef2af1606d8c5',1,'hexdump(const char *data, const size_t len, const size_t indent):&#160;util.cc'],['../util_8hh.html#a8209d9d1d87785d535019b3fcda496d6',1,'hexdump(const char *data, const size_t len, const size_t indent=0):&#160;util.hh'],['../util_8hh.html#a3fea1389815e3fb4678635fc2b1b59bd',1,'hexdump(const uint8_t *data, const size_t len, const size_t indent=0):&#160;util.hh']]],
   ['hexfloat',['hexfloat',['https://en.cppreference.com/w/cpp/io/manip/fixed.html',0,'std']]],
   ['hier',['hier',['https://man7.org/linux/man-pages/man7/hier.7.html .html',0,'man7']]],
+  ['host',['Host',['../class_host.html#ad4d35244b921ed4117e85e428a92cefc',1,'Host::Host()'],['../class_network.html#a67cd521ee7531cdbde54429d95adc699',1,'Network::host()']]],
   ['host_2econf',['host.conf',['https://man7.org/linux/man-pages/man5/host.conf.5.html .html',0,'man5']]],
   ['hostname',['hostname',['https://man7.org/linux/man-pages/man7/hostname.7.html .html',0,'man7']]],
   ['hosts',['hosts',['https://man7.org/linux/man-pages/man5/hosts.5.html .html',0,'man5']]],

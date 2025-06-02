@@ -110,8 +110,14 @@ $(function() {
 <li>_closed
 : <a class="el" href="class_file_descriptor_1_1_f_d_wrapper.html#a45483f80c7578deb0112c4cd5e6e33c2">FileDescriptor::FDWrapper</a>
 </li>
+<li>_data_socket_pair
+: <a class="el" href="class_network_interface_adapter.html#a9671b68428c231c4b19a2766bf13ef0d">NetworkInterfaceAdapter</a>
+</li>
 <li>_datagram_adapter
 : <a class="el" href="class_t_c_p_sponge_socket.html#ac9db67110f8686d4d0a85f33f0934cd9">TCPSpongeSocket&lt; AdaptT &gt;</a>
+</li>
+<li>_datagrams_out
+: <a class="el" href="class_async_network_interface.html#ae392aa8e83a5409c553f03ca76d052fa">AsyncNetworkInterface</a>
 </li>
 <li>_enqueue_arp()
 : <a class="el" href="class_network_interface.html#a4e67b42b6319e32cb4fca76f7c9e4591">NetworkInterface</a>
@@ -138,6 +144,9 @@ $(function() {
 <li>_eventloop
 : <a class="el" href="class_t_c_p_sponge_socket.html#a7179691f87175f38958775f682ab060d">TCPSpongeSocket&lt; AdaptT &gt;</a>
 </li>
+<li>_expecting_to_receive
+: <a class="el" href="class_host.html#a5f148e6ae47d331a0f299990d242c899">Host</a>
+</li>
 <li>_fd
 : <a class="el" href="class_file_descriptor_1_1_f_d_wrapper.html#aa22df8095ed30190b19bdb7154fa9737">FileDescriptor::FDWrapper</a>
 </li>
@@ -161,6 +170,9 @@ $(function() {
 , <a class="el" href="class_i_pv4_datagram.html#aab5671a540e2ecc2ee882b6a6805b77b">IPv4Datagram</a>
 , <a class="el" href="class_t_c_p_segment.html#af08a221a4491cc196757672df970c5d3">TCPSegment</a>
 </li>
+<li>_hosts
+: <a class="el" href="class_network.html#a9d798dbe689734e29c96471ff7b4e1e4">Network</a>
+</li>
 <li>_inbound_shutdown
 : <a class="el" href="class_t_c_p_sponge_socket.html#a2423f991b01c4af63f5f2e6d4de76d2a">TCPSpongeSocket&lt; AdaptT &gt;</a>
 </li>
@@ -171,7 +183,12 @@ $(function() {
 : <a class="el" href="class_t_c_p_sponge_socket.html#ae349b75aff63897d423e7c12595e7288">TCPSpongeSocket&lt; AdaptT &gt;</a>
 </li>
 <li>_interface
-: <a class="el" href="class_t_c_p_over_i_pv4_over_ethernet_adapter.html#a26cbbfaa3e9d1a34e06535d7e00898e4">TCPOverIPv4OverEthernetAdapter</a>
+: <a class="el" href="class_host.html#a18630d5bc2f14ce73a80d23c958fe31d">Host</a>
+, <a class="el" href="class_network_interface_adapter.html#a4c1912fba850febc5baa1000c847fd68">NetworkInterfaceAdapter</a>
+, <a class="el" href="class_t_c_p_over_i_pv4_over_ethernet_adapter.html#a26cbbfaa3e9d1a34e06535d7e00898e4">TCPOverIPv4OverEthernetAdapter</a>
+</li>
+<li>_interfaces
+: <a class="el" href="class_router.html#a0ff88ecae7ed0584ac77af0a2086b5f7">Router</a>
 </li>
 <li>_internal_fd
 : <a class="el" href="class_file_descriptor.html#a93c28180707868769f99c7afb1045644">FileDescriptor</a>
@@ -199,14 +216,25 @@ $(function() {
 <li>_listen
 : <a class="el" href="class_fd_adapter_base.html#a5a29f1904c6fd2f522ac1a1d57abbec8">FdAdapterBase</a>
 </li>
+<li>_local_address
+: <a class="el" href="class_t_c_p_socket_lab7.html#a4005da87a88e0b0ab233dbb9c24b1fd0">TCPSocketLab7</a>
+</li>
 <li>_make_arp_message()
 : <a class="el" href="class_network_interface.html#ad3d0f75e57c5412883365df8f5637db0">NetworkInterface</a>
 </li>
 <li>_max_retransmission_count
 : <a class="el" href="class_t_c_p_sender.html#aa970eaca46504bd8aa9a4cadf63cdf3d">TCPSender</a>
 </li>
+<li>_my_address
+: <a class="el" href="class_host.html#ae108c80906d825e39c3ca1544881311b">Host</a>
+</li>
+<li>_name
+: <a class="el" href="class_host.html#acd315314fa01382b6763d91752162e97">Host</a>
+</li>
 <li>_next_hop
-: <a class="el" href="class_t_c_p_over_i_pv4_over_ethernet_adapter.html#a327500b8750e015093867450a899eb0c">TCPOverIPv4OverEthernetAdapter</a>
+: <a class="el" href="class_host.html#a4a6aeea403515bda15651608bfbdfe73">Host</a>
+, <a class="el" href="class_network_interface_adapter.html#ac426dc4067bc3a5974cd8e1411ec6e61">NetworkInterfaceAdapter</a>
+, <a class="el" href="class_t_c_p_over_i_pv4_over_ethernet_adapter.html#a327500b8750e015093867450a899eb0c">TCPOverIPv4OverEthernetAdapter</a>
 </li>
 <li>_next_seqno
 : <a class="el" href="class_t_c_p_sender.html#aadea58d778af5ce7322d3255eeea6043">TCPSender</a>
@@ -255,6 +283,12 @@ $(function() {
 </li>
 <li>_retransmission_timeout
 : <a class="el" href="class_t_c_p_sender.html#af3c6002509fe01aa058b8b38d9f48e98">TCPSender</a>
+</li>
+<li>_router
+: <a class="el" href="class_network.html#acbb981ac8c39b3bdfaf4ca01fe19b57a">Network</a>
+</li>
+<li>_routing_table
+: <a class="el" href="class_router.html#a5a841b4bc5e051a4711b5289a1136faf">Router</a>
 </li>
 <li>_rules
 : <a class="el" href="class_event_loop.html#a9c25def098cd00b6c861c095630bcafa">EventLoop</a>

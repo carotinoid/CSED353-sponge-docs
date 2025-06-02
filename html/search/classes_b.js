@@ -7,6 +7,7 @@ var searchData=
   ['linear_5fcongruential_5fengine',['linear_congruential_engine',['https://en.cppreference.com/w/cpp/numeric/random/linear_congruential_engine.html',0,'std']]],
   ['list',['list',['https://en.cppreference.com/w/cpp/container/list.html',0,'std']]],
   ['list_3c_20eventloop_3a_3arule_20_3e',['list&lt; EventLoop::Rule &gt;',['https://en.cppreference.com/w/cpp/container/list.html',0,'std']]],
+  ['list_3c_20ipv4datagram_20_3e',['list&lt; IPv4Datagram &gt;',['https://en.cppreference.com/w/cpp/container/list.html',0,'std']]],
   ['locale',['locale',['https://en.cppreference.com/w/cpp/locale/locale.html',0,'std']]],
   ['localstreamsocket',['LocalStreamSocket',['../class_local_stream_socket.html',1,'']]],
   ['lock_5fguard',['lock_guard',['https://en.cppreference.com/w/cpp/thread/lock_guard.html',0,'std']]],

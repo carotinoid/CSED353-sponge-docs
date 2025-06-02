@@ -2,6 +2,7 @@ var searchData=
 [
   ['daemon',['daemon',['https://man7.org/linux/man-pages/man3/daemon.3.html .html',0,'man3']]],
   ['data',['data',['https://en.cppreference.com/w/cpp/container/dynarray/data.html',0,'std::dynarray::data()'],['https://en.cppreference.com/w/cpp/container/vector/data.html',0,'std::vector::data()'],['https://en.cppreference.com/w/cpp/string/basic_string/data.html',0,'std::string::data()'],['https://en.cppreference.com/w/cpp/string/basic_string/data.html',0,'std::basic_string::data()'],['https://en.cppreference.com/w/cpp/string/basic_string/data.html',0,'std::wstring::data()'],['https://en.cppreference.com/w/cpp/string/basic_string/data.html',0,'std::u16string::data()'],['https://en.cppreference.com/w/cpp/string/basic_string/data.html',0,'std::u32string::data()'],['https://en.cppreference.com/w/cpp/container/array/data.html',0,'std::array::data()']]],
+  ['datagrams_5fout',['datagrams_out',['../class_async_network_interface.html#a1dce0722358d719d0a109ac2b5714ea2',1,'AsyncNetworkInterface']]],
   ['date_5forder',['date_order',['https://en.cppreference.com/w/cpp/locale/time_get/date_order.html',0,'std::time_get::date_order()'],['https://en.cppreference.com/w/cpp/locale/time_get/date_order.html',0,'std::time_get_byname::date_order()']]],
   ['daylight',['daylight',['https://man7.org/linux/man-pages/man3/daylight.3.html .html',0,'man3']]],
   ['db',['db',['https://man7.org/linux/man-pages/man3/db.3.html .html',0,'man3']]],
@@ -17,6 +18,7 @@ var searchData=
   ['default_5ferror_5fcondition',['default_error_condition',['https://en.cppreference.com/w/cpp/error/error_code/default_error_condition.html',0,'std::error_code::default_error_condition()'],['https://en.cppreference.com/w/cpp/error/error_category/default_error_condition.html',0,'std::error_category::default_error_condition()']]],
   ['defaultfloat',['defaultfloat',['https://en.cppreference.com/w/cpp/io/manip/fixed.html',0,'std']]],
   ['delete_5fmodule',['delete_module',['https://man7.org/linux/man-pages/man2/delete_module.2.html .html',0,'man2']]],
+  ['deliver',['deliver',['../class_network.html#ab7cd76fe009d51927c6979be5e5cd5ed',1,'Network']]],
   ['denorm_5fmin',['denorm_min',['https://en.cppreference.com/w/cpp/types/numeric_limits/denorm_min.html',0,'std::numeric_limits']]],
   ['densities',['densities',['https://en.cppreference.com/w/cpp/numeric/random/piecewise_constant_distribution/params.html',0,'std::piecewise_constant_distribution::densities()'],['https://en.cppreference.com/w/cpp/numeric/random/piecewise_linear_distribution/params.html',0,'std::piecewise_linear_distribution::densities()']]],
   ['deque',['deque',['https://en.cppreference.com/w/cpp/container/deque/deque.html',0,'std::deque']]],
@@ -91,6 +93,7 @@ var searchData=
   ['dremf',['dremf',['https://man7.org/linux/man-pages/man3/dremf.3.html .html',0,'man3']]],
   ['dreml',['dreml',['https://man7.org/linux/man-pages/man3/dreml.3.html .html',0,'man3']]],
   ['dsp56k',['dsp56k',['https://man7.org/linux/man-pages/man4/dsp56k.4.html .html',0,'man4']]],
+  ['dummy_5fcode',['DUMMY_CODE',['../router_8cc.html#ac2b4ca80a95df9e697c4430ea0063517',1,'router.cc']]],
   ['dup',['dup',['https://man7.org/linux/man-pages/man2/dup.2.html .html',0,'man2']]],
   ['dup2',['dup2',['https://man7.org/linux/man-pages/man2/dup2.2.html .html',0,'man2']]],
   ['dup3',['dup3',['https://man7.org/linux/man-pages/man2/dup3.2.html .html',0,'man2']]],

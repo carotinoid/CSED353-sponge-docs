@@ -72,6 +72,7 @@ var searchData=
   ['unlocked_5fstdio',['unlocked_stdio',['https://man7.org/linux/man-pages/man3/unlocked_stdio.3.html .html',0,'man3']]],
   ['unlockpt',['unlockpt',['https://man7.org/linux/man-pages/man3/unlockpt.3.html .html',0,'man3']]],
   ['unordered_5fmap',['unordered_map',['https://en.cppreference.com/w/cpp/container/unordered_map.html',0,'std::unordered_map'],['https://en.cppreference.com/w/cpp/container/unordered_map/unordered_map.html',0,'std::unordered_map::unordered_map()']]],
+  ['unordered_5fmap_3c_20string_2c_20host_20_3e',['unordered_map&lt; string, Host &gt;',['https://en.cppreference.com/w/cpp/container/unordered_map.html',0,'std']]],
   ['unordered_5fmap_3c_20uint32_5ft_2c_20std_3a_3apair_3c_20std_3a_3aarray_2c_20uint64_5ft_20_3e_20_3e',['unordered_map&lt; uint32_t, std::pair&lt; std::array, uint64_t &gt; &gt;',['https://en.cppreference.com/w/cpp/container/unordered_map.html',0,'std']]],
   ['unordered_5fmap_3c_20uint32_5ft_2c_20std_3a_3aqueue_3c_20ipv4datagram_20_3e_20_3e',['unordered_map&lt; uint32_t, std::queue&lt; IPv4Datagram &gt; &gt;',['https://en.cppreference.com/w/cpp/container/unordered_map.html',0,'std']]],
   ['unordered_5fmap_3c_20uint32_5ft_2c_20uint64_5ft_20_3e',['unordered_map&lt; uint32_t, uint64_t &gt;',['https://en.cppreference.com/w/cpp/container/unordered_map.html',0,'std']]],
@@ -116,5 +117,6 @@ var searchData=
   ['utmp',['utmp',['https://man7.org/linux/man-pages/man5/utmp.5.html .html',0,'man5']]],
   ['utmpname',['utmpname',['https://man7.org/linux/man-pages/man3/utmpname.3.html .html',0,'man3']]],
   ['utmpx',['utmpx',['https://man7.org/linux/man-pages/man5/utmpx.5.html .html',0,'man5']]],
-  ['utmpxname',['utmpxname',['https://man7.org/linux/man-pages/man3/utmpxname.3.html .html',0,'man3']]]
+  ['utmpxname',['utmpxname',['https://man7.org/linux/man-pages/man3/utmpxname.3.html .html',0,'man3']]],
+  ['uun3_5fid',['uun3_id',['../class_network.html#a6bdf7186e8c03e195458e1cf088c1e38',1,'Network']]]
 ];

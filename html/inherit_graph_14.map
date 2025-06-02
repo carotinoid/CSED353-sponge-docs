@@ -1,3 +1,15 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_file_descriptor_1_1_f_d_wrapper.html" title="A handle on a kernel file descriptor. " alt="" coords="5,5,184,32"/>
+<area shape="rect" id="node1" href="$class_file_descriptor.html" title="A reference&#45;counted handle to a file descriptor. " alt="" coords="5,208,108,235"/>
+<area shape="rect" id="node2" href="$class_socket.html" title="Base class for network sockets (TCP, UDP, etc.) " alt="" coords="167,157,229,184"/>
+<area shape="rect" id="node11" href="$class_tun_tap_f_d.html" title="A FileDescriptor to a Linux TUN/TAP device. " alt="" coords="156,233,240,260"/>
+<area shape="rect" id="node3" href="$class_local_stream_socket.html" title="A wrapper around Unix&#45;domain stream sockets. " alt="" coords="288,81,424,108"/>
+<area shape="rect" id="node9" href="$class_t_c_p_socket.html" title="A wrapper around TCP sockets. " alt="" coords="311,132,401,159"/>
+<area shape="rect" id="node10" href="$class_u_d_p_socket.html" title="A wrapper around UDP sockets. " alt="" coords="310,183,402,209"/>
+<area shape="rect" id="node4" href="$class_t_c_p_sponge_socket.html" title="Multithreaded wrapper around TCPConnection that approximates the Unix sockets API. " alt="" coords="472,52,672,79"/>
+<area shape="rect" id="node7" href="$class_t_c_p_sponge_socket.html" title="TCPSpongeSocket\&lt; Network\lInterfaceAdapter \&gt;" alt="" coords="475,103,669,145"/>
+<area shape="rect" id="node5" href="$class_c_s144_t_c_p_socket.html" title="Helper class that makes a TCPOverIPv4SpongeSocket behave more like a (kernel) TCPSocket. " alt="" coords="720,5,851,32"/>
+<area shape="rect" id="node6" href="$class_full_stack_socket.html" title="Helper class that makes a TCPOverIPv4overEthernetSpongeSocket behave more like a (kernel) TCPSocket..." alt="" coords="726,56,845,83"/>
+<area shape="rect" id="node8" href="$class_t_c_p_socket_lab7.html" title="TCPSocketLab7" alt="" coords="726,111,845,137"/>
+<area shape="rect" id="node12" href="$class_tap_f_d.html" title="A FileDescriptor to a Linux TAP device. " alt="" coords="325,233,387,260"/>
+<area shape="rect" id="node13" href="$class_tun_f_d.html" title="A FileDescriptor to a Linux TUN device. " alt="" coords="325,284,387,311"/>
 </map>

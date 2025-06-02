@@ -1,7 +1,7 @@
 var searchData=
 [
   ['n',['n',['https://en.cppreference.com/w/cpp/numeric/random/student_t_distribution/n.html',0,'std::student_t_distribution::n()'],['https://en.cppreference.com/w/cpp/numeric/random/chi_squared_distribution/n.html',0,'std::chi_squared_distribution::n()'],['https://en.cppreference.com/w/cpp/numeric/random/fisher_f_distribution/params.html',0,'std::fisher_f_distribution::n()']]],
-  ['name',['name',['https://en.cppreference.com/w/cpp/locale/locale/name.html',0,'std::locale::name()'],['https://en.cppreference.com/w/cpp/error/error_category/name.html',0,'std::error_category::name()'],['https://en.cppreference.com/w/cpp/types/type_info/name.html',0,'std::type_info::name()'],['https://en.cppreference.com/w/cpp/types/type_index/name.html',0,'std::type_index::name()'],['../class_t_c_p_state.html#ad2026dd78b93fab205e71e08365d9a2e',1,'TCPState::name()'],['../classgai__error__category.html#ac56024110f7032d6df05a55c4d164027',1,'gai_error_category::name()']]],
+  ['name',['name',['https://en.cppreference.com/w/cpp/locale/locale/name.html',0,'std::locale::name()'],['https://en.cppreference.com/w/cpp/error/error_category/name.html',0,'std::error_category::name()'],['https://en.cppreference.com/w/cpp/types/type_info/name.html',0,'std::type_info::name()'],['https://en.cppreference.com/w/cpp/types/type_index/name.html',0,'std::type_index::name()'],['../class_host.html#afe8fd3f7fd0341754c499b581371f13c',1,'Host::name()'],['../class_t_c_p_state.html#ad2026dd78b93fab205e71e08365d9a2e',1,'TCPState::name()'],['../classgai__error__category.html#ac56024110f7032d6df05a55c4d164027',1,'gai_error_category::name()']]],
   ['name_5fto_5fhandle_5fat',['name_to_handle_at',['https://man7.org/linux/man-pages/man2/name_to_handle_at.2.html .html',0,'man2']]],
   ['namespaces',['namespaces',['https://man7.org/linux/man-pages/man7/namespaces.7.html .html',0,'man7']]],
   ['nan',['nan',['https://en.cppreference.com/w/cpp/numeric/math/nan.html',0,'std::nan()'],['https://man7.org/linux/man-pages/man3/nan.3.html .html',0,'man3::nan'],['https://man7.org/linux/man-pages/man3/NAN.3.html .html',0,'man3::NAN']]],
@@ -22,8 +22,11 @@ var searchData=
   ['netdevice',['netdevice',['https://man7.org/linux/man-pages/man7/netdevice.7.html .html',0,'man7']]],
   ['netlink',['netlink',['https://man7.org/linux/man-pages/man3/netlink.3.html .html',0,'man3::netlink()'],['https://man7.org/linux/man-pages/man7/netlink.7.html .html',0,'man7::netlink()']]],
   ['netparser',['NetParser',['../class_net_parser.html#a6e0c0f6f2668ec58e640310dff7b201b',1,'NetParser']]],
+  ['network',['Network',['../class_network.html#a3cc2fb4f8fa4d507077e8da85ce5a1c8',1,'Network']]],
   ['network_5fnamespaces',['network_namespaces',['https://man7.org/linux/man-pages/man7/network_namespaces.7.html .html',0,'man7']]],
+  ['network_5fsimulator',['network_simulator',['../network__simulator_8cc.html#a3766e88a3fa5a849e9f0cde213f62382',1,'network_simulator.cc']]],
   ['networkinterface',['NetworkInterface',['../class_network_interface.html#a0bae4bd8c1a1a38028ba16e3c1626ada',1,'NetworkInterface']]],
+  ['networkinterfaceadapter',['NetworkInterfaceAdapter',['../class_network_interface_adapter.html#a690913b15e4be25f199652214fb24da9',1,'NetworkInterfaceAdapter']]],
   ['networks',['networks',['https://man7.org/linux/man-pages/man5/networks.5.html .html',0,'man5']]],
   ['newfstatat',['newfstatat',['https://man7.org/linux/man-pages/man2/newfstatat.2.html .html',0,'man2']]],
   ['newlocale',['newlocale',['https://man7.org/linux/man-pages/man3/newlocale.3.html .html',0,'man3']]],

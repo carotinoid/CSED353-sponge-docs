@@ -40,6 +40,7 @@ var searchData=
   ['remove_5fvolatile',['remove_volatile',['https://en.cppreference.com/w/cpp/types/remove_cv.html',0,'std']]],
   ['result_5fof',['result_of',['https://en.cppreference.com/w/cpp/types/result_of.html',0,'std']]],
   ['reverse_5fiterator',['reverse_iterator',['https://en.cppreference.com/w/cpp/iterator/reverse_iterator.html',0,'std']]],
+  ['router',['Router',['../class_router.html',1,'']]],
   ['rule',['Rule',['../class_event_loop_1_1_rule.html',1,'EventLoop']]],
   ['runtime_5ferror',['runtime_error',['https://en.cppreference.com/w/cpp/error/runtime_error.html',0,'std']]]
 ];

@@ -63,7 +63,7 @@ var searchData=
   ['list_5fnext',['LIST_NEXT',['https://man7.org/linux/man-pages/man3/LIST_NEXT.3.html .html',0,'man3']]],
   ['list_5fremove',['LIST_REMOVE',['https://man7.org/linux/man-pages/man3/LIST_REMOVE.3.html .html',0,'man3']]],
   ['listen',['listen',['../class_t_c_p_socket.html#abbcc8052062ef85830da9864fe023e80',1,'TCPSocket::listen()'],['https://man7.org/linux/man-pages/man2/listen.2.html .html',0,'man2::listen()'],['../socket__example__2_8cc.html#a623c6611a925c55c0f55dec38b943b70',1,'listen():&#160;socket_example_2.cc']]],
-  ['listen_5fand_5faccept',['listen_and_accept',['../class_t_c_p_sponge_socket.html#afc21949d943257a06265333ecebf8137',1,'TCPSpongeSocket']]],
+  ['listen_5fand_5faccept',['listen_and_accept',['../class_t_c_p_socket_lab7.html#acf343374739018bd40d9493e8434a94e',1,'TCPSocketLab7::listen_and_accept()'],['../class_t_c_p_sponge_socket.html#afc21949d943257a06265333ecebf8137',1,'TCPSpongeSocket::listen_and_accept()']]],
   ['listening',['listening',['../class_fd_adapter_base.html#a77feb61128a0732c0eaed50b82fcf0ac',1,'FdAdapterBase']]],
   ['listxattr',['listxattr',['https://man7.org/linux/man-pages/man2/listxattr.2.html .html',0,'man2']]],
   ['llabs',['llabs',['https://en.cppreference.com/w/cpp/numeric/math/abs.html',0,'std::llabs()'],['https://man7.org/linux/man-pages/man3/llabs.3.html .html',0,'man3::llabs()']]],

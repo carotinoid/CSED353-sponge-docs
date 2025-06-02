@@ -1,0 +1,7 @@
+<map id="TCPSocketLab7" name="TCPSocketLab7">
+<area shape="rect" id="node2" href="$class_t_c_p_sponge_socket.html" title="TCPSpongeSocket\&lt; Network\lInterfaceAdapter \&gt;" alt="" coords="5,323,200,364"/>
+<area shape="rect" id="node3" href="$class_local_stream_socket.html" title="A wrapper around Unix&#45;domain stream sockets. " alt="" coords="29,157,165,184"/>
+<area shape="rect" id="node6" href="$class_t_c_p_sponge_socket.html" title="Multithreaded wrapper around TCPConnection that approximates the Unix sockets API. " alt="" coords="119,233,319,260"/>
+<area shape="rect" id="node4" href="$class_socket.html" title="Base class for network sockets (TCP, UDP, etc.) " alt="" coords="66,81,129,108"/>
+<area shape="rect" id="node5" href="$class_file_descriptor.html" title="A reference&#45;counted handle to a file descriptor. " alt="" coords="46,5,149,32"/>
+</map>

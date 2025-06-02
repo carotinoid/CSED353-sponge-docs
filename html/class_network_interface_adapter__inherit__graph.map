@@ -1,0 +1,4 @@
+<map id="NetworkInterfaceAdapter" name="NetworkInterfaceAdapter">
+<area shape="rect" id="node2" href="$class_t_c_p_over_i_pv4_adapter.html" title="A converter from TCP segments to serialized IPv4 datagrams. " alt="" coords="14,80,163,107"/>
+<area shape="rect" id="node3" href="$class_fd_adapter_base.html" title="Basic functionality for file descriptor adaptors. " alt="" coords="33,5,145,32"/>
+</map>

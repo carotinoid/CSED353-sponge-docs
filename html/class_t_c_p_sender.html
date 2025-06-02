@@ -119,14 +119,14 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a93dbf3fec43c5f4d5f74f5094919533d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_t_c_p_sender.html#a93dbf3fec43c5f4d5f74f5094919533d">_send_segment</a> (<a class="el" href="class_t_c_p_segment.html">TCPSegment</a> seg, bool is_syn=false, bool is_fin=false)</td></tr>
+<tr class="memitem:a93dbf3fec43c5f4d5f74f5094919533d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_t_c_p_sender.html#a93dbf3fec43c5f4d5f74f5094919533d">_send_segment</a> (<a class="el" href="class_t_c_p_segment.html">TCPSegment</a> seg, <a class="el" href="namespace_3global_scope_4.html#classbool">bool</a> is_syn=false, <a class="el" href="namespace_3global_scope_4.html#classbool">bool</a> is_fin=false)</td></tr>
 <tr class="separator:a93dbf3fec43c5f4d5f74f5094919533d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a4f8014fbacc3eb8f86b30f9ff16e74b8"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_t_c_p_sender.html#a4f8014fbacc3eb8f86b30f9ff16e74b8">_bytes_in_flight</a> {0}</td></tr>
 <tr class="separator:a4f8014fbacc3eb8f86b30f9ff16e74b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc732ea8f99733d93406724423ead058"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_t_c_p_sender.html#afc732ea8f99733d93406724423ead058">_FIN_sent</a> {false}</td></tr>
+<tr class="memitem:afc732ea8f99733d93406724423ead058"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_3global_scope_4.html#classbool">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_t_c_p_sender.html#afc732ea8f99733d93406724423ead058">_FIN_sent</a> {false}</td></tr>
 <tr class="memdesc:afc732ea8f99733d93406724423ead058"><td class="mdescLeft">&#160;</td><td class="mdescRight">the flag indicating whether the <a class="el" href="class_t_c_p_sender.html" title="The &quot;sender&quot; part of a TCP implementation. ">TCPSender</a> has sent a FIN  <a href="#afc732ea8f99733d93406724423ead058">More...</a><br /></td></tr>
 <tr class="separator:afc732ea8f99733d93406724423ead058"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69e45ec47ce6fedf14c8787c4d2e1a5f"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_t_c_p_sender.html#a69e45ec47ce6fedf14c8787c4d2e1a5f">_initial_retransmission_timeout</a></td></tr>
@@ -159,10 +159,10 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a467ff6f49912c453238d7ac479561ed0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_byte_stream.html">ByteStream</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_t_c_p_sender.html#a467ff6f49912c453238d7ac479561ed0">_stream</a></td></tr>
 <tr class="memdesc:a467ff6f49912c453238d7ac479561ed0"><td class="mdescLeft">&#160;</td><td class="mdescRight">outgoing stream of bytes that have not yet been sent  <a href="#a467ff6f49912c453238d7ac479561ed0">More...</a><br /></td></tr>
 <tr class="separator:a467ff6f49912c453238d7ac479561ed0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a403ac6f527e0f2ca5058440d2cb7206e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_t_c_p_sender.html#a403ac6f527e0f2ca5058440d2cb7206e">_SYN_sent</a> {false}</td></tr>
+<tr class="memitem:a403ac6f527e0f2ca5058440d2cb7206e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_3global_scope_4.html#classbool">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_t_c_p_sender.html#a403ac6f527e0f2ca5058440d2cb7206e">_SYN_sent</a> {false}</td></tr>
 <tr class="memdesc:a403ac6f527e0f2ca5058440d2cb7206e"><td class="mdescLeft">&#160;</td><td class="mdescRight">the flag indicating whether the <a class="el" href="class_t_c_p_sender.html" title="The &quot;sender&quot; part of a TCP implementation. ">TCPSender</a> has sent a SYN  <a href="#a403ac6f527e0f2ca5058440d2cb7206e">More...</a><br /></td></tr>
 <tr class="separator:a403ac6f527e0f2ca5058440d2cb7206e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad03efd852ab6299f7ab34d8934af969c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_t_c_p_sender.html#ad03efd852ab6299f7ab34d8934af969c">_timer_running</a> {false}</td></tr>
+<tr class="memitem:ad03efd852ab6299f7ab34d8934af969c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_3global_scope_4.html#classbool">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_t_c_p_sender.html#ad03efd852ab6299f7ab34d8934af969c">_timer_running</a> {false}</td></tr>
 <tr class="memdesc:ad03efd852ab6299f7ab34d8934af969c"><td class="mdescLeft">&#160;</td><td class="mdescRight">the flag indicating whether the timer is running  <a href="#ad03efd852ab6299f7ab34d8934af969c">More...</a><br /></td></tr>
 <tr class="separator:ad03efd852ab6299f7ab34d8934af969c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab91ca2a2078eba0203a6606b2de04aca"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_t_c_p_sender.html#ab91ca2a2078eba0203a6606b2de04aca">_total_time</a> {0}</td></tr>
@@ -244,13 +244,13 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool&#160;</td>
+          <td class="paramtype"><a class="el" href="namespace_3global_scope_4.html#classbool">bool</a>&#160;</td>
           <td class="paramname"><em>is_syn</em> = <code>false</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool&#160;</td>
+          <td class="paramtype"><a class="el" href="namespace_3global_scope_4.html#classbool">bool</a>&#160;</td>
           <td class="paramname"><em>is_fin</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
@@ -600,7 +600,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool TCPSender::_FIN_sent {false}</td>
+          <td class="memname"><a class="el" href="namespace_3global_scope_4.html#classbool">bool</a> TCPSender::_FIN_sent {false}</td>
         </tr>
       </table>
   </td>
@@ -886,7 +886,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool TCPSender::_SYN_sent {false}</td>
+          <td class="memname"><a class="el" href="namespace_3global_scope_4.html#classbool">bool</a> TCPSender::_SYN_sent {false}</td>
         </tr>
       </table>
   </td>
@@ -912,7 +912,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool TCPSender::_timer_running {false}</td>
+          <td class="memname"><a class="el" href="namespace_3global_scope_4.html#classbool">bool</a> TCPSender::_timer_running {false}</td>
         </tr>
       </table>
   </td>
